@@ -14,6 +14,35 @@
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fwekan%2Fwekan.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fwekan%2Fwekan?ref=badge_shield)
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/4619/badge)](https://bestpractices.coreinfrastructure.org/projects/4619)
 
+## Notas Edu
+
+* GitHub oficial: https://github.com/wekan/wekan
+
+* Para instalar WeKan como span, haz clic [aquí](https://github.com/wekan/wekan-snap/wiki/Install).
+
+* Para comenzar correr las pruebas:
+
+  1. Instalar Meteor (Framework Web Node.js)
+
+      > npm install -g meteor
+
+  2. Instalar librería babel
+
+      > meteor npm install --save @babel/runtime
+
+  3. Instalar puppeteer driver scrapper
+
+      > meteor npm install --save puppeteer
+
+  4. Correr las pruebas:
+
+      > ./test-wekan.sh
+
+* Para poder montar un ambiente se puede hacer creando una imagen Docker, sin embargo, puede que esto sea lento (realmente no lo sé), lo mejor sería poder montar todo en un server local y hacer pruebas más rápidamente. Docker me tinca que es para el deployment. De todas maneras en este [enlace](https://github.com/wekan/wekan/wiki/Docker) puedo hacer una imagen Docker (primero tengo que aprender docker para hacerlo).
+
+* Para poder iniciar en ambiente de desarrollo la aplicación tengo que instalar nginx, mongodb y saber como funciona meteor (framework web para node.js).
+
+
 ## [Translate WeKan ® at Transifex](https://transifex.com/wekan/wekan)
 
 Translations to non-English languages are accepted only at [Transifex](https://transifex.com/wekan/wekan) using webbrowser.
